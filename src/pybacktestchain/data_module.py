@@ -173,6 +173,8 @@ class FirstTwoMoments(Information):
         # sort data by ticker and date
         data = data.sort_values(by=[self.company_column, self.time_column])
 
+        print("test git")
+
         # expected return per company
         data['return'] =  data.groupby(self.company_column)[self.adj_close_column].pct_change() #.mean()
         
