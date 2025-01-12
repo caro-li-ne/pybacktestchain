@@ -5,9 +5,9 @@ from datetime import datetime
 
 import os 
 import pickle
-from pybacktestchain.data_module import UNIVERSE_SEC, FirstTwoMoments, get_stocks_data, DataModule, Information
-from pybacktestchain.utils import generate_random_name
-from pybacktestchain.blockchain import Block, Blockchain
+from src.pybacktestchain.data_module import UNIVERSE_SEC, FirstTwoMoments, get_stocks_data, DataModule, Information
+from src.pybacktestchain.utils import generate_random_name
+from src.pybacktestchain.blockchain import Block, Blockchain
 from numba import jit 
 
 # Setup logging
